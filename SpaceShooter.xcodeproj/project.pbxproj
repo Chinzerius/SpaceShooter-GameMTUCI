@@ -17,6 +17,12 @@
 		A4215E9E2080E992008FC30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4215E9C2080E992008FC30E /* LaunchScreen.storyboard */; };
 		A4215EA92080E993008FC30E /* SpaceShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4215EA82080E993008FC30E /* SpaceShooterTests.swift */; };
 		A4215EB42080E993008FC30E /* SpaceShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4215EB32080E993008FC30E /* SpaceShooterUITests.swift */; };
+		A4215EC32080E9A6008FC30E /* vzriv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4215EC12080E9A5008FC30E /* vzriv.mp3 */; };
+		A4215EC42080E9A6008FC30E /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4215EC22080E9A6008FC30E /* bullet.mp3 */; };
+		A4215EC92080EA2B008FC30E /* Vzriv.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4215EC72080EA2A008FC30E /* Vzriv.sks */; };
+		A4215ECA2080EA2B008FC30E /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4215EC82080EA2A008FC30E /* Starfield.sks */; };
+		A478EB452084862E005B659A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478EB442084862E005B659A /* MainMenu.swift */; };
+		A4A5DBDB20839AF3000DDD89 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = A4A5DBDA20839AF3000DDD89 /* MainMenu.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		A4215EAF2080E993008FC30E /* SpaceShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4215EB32080E993008FC30E /* SpaceShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShooterUITests.swift; sourceTree = "<group>"; };
 		A4215EB52080E993008FC30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4215EC12080E9A5008FC30E /* vzriv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vzriv.mp3; sourceTree = "<group>"; };
+		A4215EC22080E9A6008FC30E /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
+		A4215EC72080EA2A008FC30E /* Vzriv.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Vzriv.sks; sourceTree = "<group>"; };
+		A4215EC82080EA2A008FC30E /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		A478EB442084862E005B659A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		A4A5DBDA20839AF3000DDD89 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				A4215E932080E992008FC30E /* GameScene.swift */,
 				A4215E952080E992008FC30E /* GameViewController.swift */,
 				A4215E972080E992008FC30E /* Main.storyboard */,
+				A4A5DBDA20839AF3000DDD89 /* MainMenu.sks */,
+				A478EB442084862E005B659A /* MainMenu.swift */,
+				A4215EC22080E9A6008FC30E /* bullet.mp3 */,
+				A4215EC12080E9A5008FC30E /* vzriv.mp3 */,
+				A4215EC82080EA2A008FC30E /* Starfield.sks */,
+				A4215EC72080EA2A008FC30E /* Vzriv.sks */,
 				A4215E9A2080E992008FC30E /* Assets.xcassets */,
 				A4215E9C2080E992008FC30E /* LaunchScreen.storyboard */,
 				A4215E9F2080E992008FC30E /* Info.plist */,
@@ -238,9 +256,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4215EC42080E9A6008FC30E /* bullet.mp3 in Resources */,
+				A4215EC92080EA2B008FC30E /* Vzriv.sks in Resources */,
+				A4215EC32080E9A6008FC30E /* vzriv.mp3 in Resources */,
+				A4A5DBDB20839AF3000DDD89 /* MainMenu.sks in Resources */,
 				A4215E992080E992008FC30E /* Main.storyboard in Resources */,
 				A4215E902080E992008FC30E /* GameScene.sks in Resources */,
 				A4215E9B2080E992008FC30E /* Assets.xcassets in Resources */,
+				A4215ECA2080EA2B008FC30E /* Starfield.sks in Resources */,
 				A4215E9E2080E992008FC30E /* LaunchScreen.storyboard in Resources */,
 				A4215E922080E992008FC30E /* Actions.sks in Resources */,
 			);
@@ -270,6 +293,7 @@
 				A4215E942080E992008FC30E /* GameScene.swift in Sources */,
 				A4215E962080E992008FC30E /* GameViewController.swift in Sources */,
 				A4215E8E2080E992008FC30E /* AppDelegate.swift in Sources */,
+				A478EB452084862E005B659A /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBXB489K53;
 				INFOPLIST_FILE = SpaceShooter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBXB489K53;
 				INFOPLIST_FILE = SpaceShooter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
